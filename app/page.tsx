@@ -1,7 +1,9 @@
+import React from 'react';
 import HeroSection from "@/components/home/herosection";
 import FeatureSection from "@/components/home/featuresection";
 import TestimonialSection from "@/components/home/testimonialsection";
-export default function Home() {
+
+export default function HomePage() {
   return (
     <main>
       <HeroSection />
